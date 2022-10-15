@@ -73,12 +73,12 @@ void topla(char s1[MAX], char s2[MAX])
         printf("%s\n", s1);
         printf("%s\n", s2);
     }
-    printf("\+_______\n");
+    printf("+_______\n");
 
     for (k--; k >= 0; k--)
         printf(" %d", sum[k]);
 }
-//ÇARPMA
+//Ã‡ARPMA
 void carp(char s1[MAX], char s2[MAX])
 {
     int a[100], b[100];
@@ -134,14 +134,14 @@ void carp(char s1[MAX], char s2[MAX])
         printf("%s\n", s1);
         printf("%s\n", s2);
     }
-    printf("\*_______\n");
+    printf("*_______\n");
     // printf("\nsonuc:\t");
     for (; i >= 0; i--)
     {
         printf(" %d", ans[i]);
     }
 
-    //ÇIKARMA
+    //Ã‡IKARMA
 }
 
 int cik(char s1[MAX], char s2[MAX])
@@ -190,7 +190,7 @@ int cik(char s1[MAX], char s2[MAX])
                 num1[i] += 10;
             }
         }
-        printf("\-_______\n");
+        printf("-_______\n");
         i = k;
         while (num1[i] == 0)
             i--;
@@ -229,7 +229,7 @@ int cik(char s1[MAX], char s2[MAX])
             {
                 printf("0");
             }
-            printf("\-_______");
+            printf("-_______");
             printf("\nsonuc:");
 
             for (; i >= 0; i--)
@@ -257,7 +257,7 @@ int cik(char s1[MAX], char s2[MAX])
                 }
                 printf("%s\n", s1);
                 printf("%s\n", s2);
-                printf("\-_______\n");
+                printf("-_______\n");
 
                 j = k;
                 while (num2[j] == 0)
@@ -284,7 +284,7 @@ int cik(char s1[MAX], char s2[MAX])
                 }
                 printf("%s\n", s1);
                 printf("%s\n", s2);
-                printf("\-_______\n");
+                printf("-_______\n");
                 j = k;
                 while (num1[j] == 0)
                     j--;
@@ -311,7 +311,7 @@ int cik(char s1[MAX], char s2[MAX])
         }
         printf("%s\n", s1);
         printf("%s\n", s2);
-        printf("\-_______\n");
+        printf("-_______\n");
         i = k;
         while (num1[i] == 0)
             i--;
@@ -355,7 +355,7 @@ int main()
         {
             if (48 > s1[i] || s1[i] > 58)
             {
-                printf("yalnızca rakam girebilirsiniz!");
+                printf("yalnÃ½zca rakam girebilirsiniz!");
                 return 0;
             }
         }
@@ -383,7 +383,7 @@ int main()
         {
             if (48 > s1[i] || s1[i] > 58)
             {
-                printf("yalnızca rakam girebilirsiniz!");
+                printf("yalnÃ½zca rakam girebilirsiniz!");
                 return 0;
             }
         }
@@ -410,7 +410,7 @@ int main()
         {
             if (48 > s1[i] || s1[i] > 58)
             {
-                printf("yalnızca rakam girebilirsiniz!");
+                printf("yalnÃ½zca rakam girebilirsiniz!");
                 return 0;
             }
         }
